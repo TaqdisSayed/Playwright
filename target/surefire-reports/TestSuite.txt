@@ -1,0 +1,48 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 17.891 s <<< FAILURE! - in TestSuite
+LoginWithValidCreds(com.qa.CargoesCommuity.Tests.LoginTest)  Time elapsed: 7.531 s  <<< FAILURE!
+com.microsoft.playwright.PlaywrightException: 
+Error {
+  message='Target closed
+=========================== logs ===========================
+waiting for selector "//input[@id='username']"
+============================================================
+  name='Error
+  stack='Error: Target closed
+=========================== logs ===========================
+waiting for selector "//input[@id='username']"
+============================================================
+    at C:\Users\tausi\AppData\Local\Temp\playwright-java-16740682782411602580\package\lib\server\chromium\crConnection.js:204:16
+    at new Promise (<anonymous>)
+    at CRSession.send (C:\Users\tausi\AppData\Local\Temp\playwright-java-16740682782411602580\package\lib\server\chromium\crConnection.js:200:12)
+    at CRExecutionContext.evaluateWithArguments (C:\Users\tausi\AppData\Local\Temp\playwright-java-16740682782411602580\package\lib\server\chromium\crExecutionContext.js:89:28)
+    at FrameExecutionContext.evaluateWithArguments (C:\Users\tausi\AppData\Local\Temp\playwright-java-16740682782411602580\package\lib\server\javascript.js:73:61)
+    at evaluateExpression (C:\Users\tausi\AppData\Local\Temp\playwright-java-16740682782411602580\package\lib\server\javascript.js:264:26)
+    at async InjectedScriptPollHandler.finishHandle (C:\Users\tausi\AppData\Local\Temp\playwright-java-16740682782411602580\package\lib\server\dom.js:985:22)
+    at async RerunnableTask.rerun (C:\Users\tausi\AppData\Local\Temp\playwright-java-16740682782411602580\package\lib\server\frames.js:1754:73)
+}
+	at com.qa.CargoesCommuity.Tests.LoginTest.LoginWithValidCreds(LoginTest.java:20)
+Caused by: com.microsoft.playwright.impl.DriverException: 
+Error {
+  message='Target closed
+=========================== logs ===========================
+waiting for selector "//input[@id='username']"
+============================================================
+  name='Error
+  stack='Error: Target closed
+=========================== logs ===========================
+waiting for selector "//input[@id='username']"
+============================================================
+    at C:\Users\tausi\AppData\Local\Temp\playwright-java-16740682782411602580\package\lib\server\chromium\crConnection.js:204:16
+    at new Promise (<anonymous>)
+    at CRSession.send (C:\Users\tausi\AppData\Local\Temp\playwright-java-16740682782411602580\package\lib\server\chromium\crConnection.js:200:12)
+    at CRExecutionContext.evaluateWithArguments (C:\Users\tausi\AppData\Local\Temp\playwright-java-16740682782411602580\package\lib\server\chromium\crExecutionContext.js:89:28)
+    at FrameExecutionContext.evaluateWithArguments (C:\Users\tausi\AppData\Local\Temp\playwright-java-16740682782411602580\package\lib\server\javascript.js:73:61)
+    at evaluateExpression (C:\Users\tausi\AppData\Local\Temp\playwright-java-16740682782411602580\package\lib\server\javascript.js:264:26)
+    at async InjectedScriptPollHandler.finishHandle (C:\Users\tausi\AppData\Local\Temp\playwright-java-16740682782411602580\package\lib\server\dom.js:985:22)
+    at async RerunnableTask.rerun (C:\Users\tausi\AppData\Local\Temp\playwright-java-16740682782411602580\package\lib\server\frames.js:1754:73)
+}
+	at com.qa.CargoesCommuity.Tests.LoginTest.LoginWithValidCreds(LoginTest.java:20)
+

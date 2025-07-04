@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="17.891" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\tausi\OneDrive - DP World\Desktop\Taqdis\DP_World\Playwrite\PlaywritePOMFramework\target\test-classes;C:\Users\tausi\OneDrive - DP World\Desktop\Taqdis\DP_World\Playwrite\PlaywritePOMFramework\target\classes;C:\Users\tausi\.m2\repository\com\microsoft\playwright\playwright\1.21.0\playwright-1.21.0.jar;C:\Users\tausi\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\tausi\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\tausi\.m2\repository\com\microsoft\playwright\driver\1.21.0\driver-1.21.0.jar;C:\Users\tausi\.m2\repository\com\microsoft\playwright\driver-bundle\1.21.0\driver-bundle-1.21.0.jar;C:\Users\tausi\.m2\repository\org\apache\cxf\cxf-codegen-plugin\4.0.4\cxf-codegen-plugin-4.0.4.jar;C:\Users\tausi\.m2\repository\org\codehaus\plexus\plexus-utils\3.5.1\plexus-utils-3.5.1.jar;C:\Users\tausi\.m2\repository\org\codehaus\plexus\plexus-archiver\4.9.1\plexus-archiver-4.9.1.jar;C:\Users\tausi\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\tausi\.m2\repository\org\codehaus\plexus\plexus-io\3.4.1\plexus-io-3.4.1.jar;C:\Users\tausi\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\tausi\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\tausi\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\tausi\.m2\repository\org\iq80\snappy\snappy\0.4\snappy-0.4.jar;C:\Users\tausi\.m2\repository\org\tukaani\xz\1.9\xz-1.9.jar;C:\Users\tausi\.m2\repository\com\github\luben\zstd-jni\1.5.5-11\zstd-jni-1.5.5-11.jar;C:\Users\tausi\.m2\repository\org\apache\cxf\cxf-core\4.0.4\cxf-core-4.0.4.jar;C:\Users\tausi\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;C:\Users\tausi\.m2\repository\org\glassfish\jaxb\jaxb-runtime\3.0.2\jaxb-runtime-3.0.2.jar;C:\Users\tausi\.m2\repository\org\glassfish\jaxb\jaxb-core\3.0.2\jaxb-core-3.0.2.jar;C:\Users\tausi\.m2\repository\org\glassfish\jaxb\txw2\3.0.2\txw2-3.0.2.jar;C:\Users\tausi\.m2\repository\com\sun\istack\istack-commons-runtime\4.0.1\istack-commons-runtime-4.0.1.jar;C:\Users\tausi\.m2\repository\com\fasterxml\woodstox\woodstox-core\6.6.1\woodstox-core-6.6.1.jar;C:\Users\tausi\.m2\repository\org\codehaus\woodstox\stax2-api\4.2.2\stax2-api-4.2.2.jar;C:\Users\tausi\.m2\repository\org\apache\ws\xmlschema\xmlschema-core\2.3.1\xmlschema-core-2.3.1.jar;C:\Users\tausi\.m2\repository\org\eclipse\angus\angus-activation\2.0.1\angus-activation-2.0.1.jar;C:\Users\tausi\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.2\jakarta.activation-api-2.1.2.jar;C:\Users\tausi\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\3.0.1\jakarta.xml.bind-api-3.0.1.jar;C:\Users\tausi\.m2\repository\org\apache\cxf\cxf-tools-common\4.0.4\cxf-tools-common-4.0.4.jar;C:\Users\tausi\.m2\repository\jakarta\jws\jakarta.jws-api\3.0.0\jakarta.jws-api-3.0.0.jar;C:\Users\tausi\.m2\repository\org\apache\velocity\velocity-engine-core\2.3\velocity-engine-core-2.3.jar;C:\Users\tausi\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\tausi\.m2\repository\wsdl4j\wsdl4j\1.6.3\wsdl4j-1.6.3.jar;C:\Users\tausi\.m2\repository\org\glassfish\jaxb\jaxb-xjc\3.0.2\jaxb-xjc-3.0.2.jar;C:\Users\tausi\.m2\repository\org\glassfish\jaxb\xsom\3.0.2\xsom-3.0.2.jar;C:\Users\tausi\.m2\repository\com\sun\xml\bind\external\relaxng-datatype\3.0.2\relaxng-datatype-3.0.2.jar;C:\Users\tausi\.m2\repository\org\glassfish\jaxb\codemodel\3.0.2\codemodel-3.0.2.jar;C:\Users\tausi\.m2\repository\com\sun\xml\bind\external\rngom\3.0.2\rngom-3.0.2.jar;C:\Users\tausi\.m2\repository\com\sun\xml\dtd-parser\dtd-parser\1.4.5\dtd-parser-1.4.5.jar;C:\Users\tausi\.m2\repository\com\sun\istack\istack-commons-tools\4.0.1\istack-commons-tools-4.0.1.jar;C:\Users\tausi\.m2\repository\org\apache\cxf\cxf-tools-wsdlto-core\4.0.4\cxf-tools-wsdlto-core-4.0.4.jar;C:\Users\tausi\.m2\repository\org\apache\cxf\cxf-tools-validator\4.0.4\cxf-tools-validator-4.0.4.jar;C:\Users\tausi\.m2\repository\org\apache\cxf\cxf-rt-bindings-soap\4.0.4\cxf-rt-bindings-soap-4.0.4.jar;C:\Users\tausi\.m2\repository\jakarta\xml\soap\jakarta.xml.soap-api\2.0.1\jakarta.xml.soap-api-2.0.1.jar;C:\Users\tausi\.m2\repository\jakarta\xml\ws\jakarta.xml.ws-api\3.0.1\jakarta.xml.ws-api-3.0.1.jar;C:\Users\tausi\.m2\repository\org\apache\cxf\cxf-rt-databinding-jaxb\4.0.4\cxf-rt-databinding-jaxb-4.0.4.jar;C:\Users\tausi\.m2\repository\org\apache\cxf\cxf-rt-wsdl\4.0.4\cxf-rt-wsdl-4.0.4.jar;C:\Users\tausi\.m2\repository\org\ow2\asm\asm\9.6\asm-9.6.jar;C:\Users\tausi\.m2\repository\org\apache\cxf\cxf-tools-wsdlto-databinding-jaxb\4.0.4\cxf-tools-wsdlto-databinding-jaxb-4.0.4.jar;C:\Users\tausi\.m2\repository\org\apache\cxf\cxf-tools-wsdlto-frontend-jaxws\4.0.4\cxf-tools-wsdlto-frontend-jaxws-4.0.4.jar;C:\Users\tausi\.m2\repository\xml-resolver\xml-resolver\1.2\xml-resolver-1.2.jar;C:\Users\tausi\.m2\repository\org\apache\commons\commons-text\1.10.0\commons-text-1.10.0.jar;C:\Users\tausi\.m2\repository\org\apache\cxf\cxf-tools-wsdlto-frontend-javascript\4.0.4\cxf-tools-wsdlto-frontend-javascript-4.0.4.jar;C:\Users\tausi\.m2\repository\org\apache\cxf\cxf-rt-javascript\4.0.4\cxf-rt-javascript-4.0.4.jar;C:\Users\tausi\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\tausi\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\tausi\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Asia/Dubai"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="AE"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11\bin"/>
+    <property name="sun.java.command" value="C:\Users\tausi\AppData\Local\Temp\surefire4716744476531985076\surefirebooter3997361416501560334.jar C:\Users\tausi\AppData\Local\Temp\surefire4716744476531985076 2024-09-23T22-40-33_931-jvmRun1 surefire8481695242864612677tmp surefire_08728509469234748454tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\tausi\OneDrive - DP World\Desktop\Taqdis\DP_World\Playwrite\PlaywritePOMFramework\target\test-classes;C:\Users\tausi\OneDrive - DP World\Desktop\Taqdis\DP_World\Playwrite\PlaywritePOMFramework\target\classes;C:\Users\tausi\.m2\repository\com\microsoft\playwright\playwright\1.21.0\playwright-1.21.0.jar;C:\Users\tausi\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\tausi\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\tausi\.m2\repository\com\microsoft\playwright\driver\1.21.0\driver-1.21.0.jar;C:\Users\tausi\.m2\repository\com\microsoft\playwright\driver-bundle\1.21.0\driver-bundle-1.21.0.jar;C:\Users\tausi\.m2\repository\org\apache\cxf\cxf-codegen-plugin\4.0.4\cxf-codegen-plugin-4.0.4.jar;C:\Users\tausi\.m2\repository\org\codehaus\plexus\plexus-utils\3.5.1\plexus-utils-3.5.1.jar;C:\Users\tausi\.m2\repository\org\codehaus\plexus\plexus-archiver\4.9.1\plexus-archiver-4.9.1.jar;C:\Users\tausi\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\tausi\.m2\repository\org\codehaus\plexus\plexus-io\3.4.1\plexus-io-3.4.1.jar;C:\Users\tausi\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\tausi\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\tausi\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\tausi\.m2\repository\org\iq80\snappy\snappy\0.4\snappy-0.4.jar;C:\Users\tausi\.m2\repository\org\tukaani\xz\1.9\xz-1.9.jar;C:\Users\tausi\.m2\repository\com\github\luben\zstd-jni\1.5.5-11\zstd-jni-1.5.5-11.jar;C:\Users\tausi\.m2\repository\org\apache\cxf\cxf-core\4.0.4\cxf-core-4.0.4.jar;C:\Users\tausi\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;C:\Users\tausi\.m2\repository\org\glassfish\jaxb\jaxb-runtime\3.0.2\jaxb-runtime-3.0.2.jar;C:\Users\tausi\.m2\repository\org\glassfish\jaxb\jaxb-core\3.0.2\jaxb-core-3.0.2.jar;C:\Users\tausi\.m2\repository\org\glassfish\jaxb\txw2\3.0.2\txw2-3.0.2.jar;C:\Users\tausi\.m2\repository\com\sun\istack\istack-commons-runtime\4.0.1\istack-commons-runtime-4.0.1.jar;C:\Users\tausi\.m2\repository\com\fasterxml\woodstox\woodstox-core\6.6.1\woodstox-core-6.6.1.jar;C:\Users\tausi\.m2\repository\org\codehaus\woodstox\stax2-api\4.2.2\stax2-api-4.2.2.jar;C:\Users\tausi\.m2\repository\org\apache\ws\xmlschema\xmlschema-core\2.3.1\xmlschema-core-2.3.1.jar;C:\Users\tausi\.m2\repository\org\eclipse\angus\angus-activation\2.0.1\angus-activation-2.0.1.jar;C:\Users\tausi\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.2\jakarta.activation-api-2.1.2.jar;C:\Users\tausi\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\3.0.1\jakarta.xml.bind-api-3.0.1.jar;C:\Users\tausi\.m2\repository\org\apache\cxf\cxf-tools-common\4.0.4\cxf-tools-common-4.0.4.jar;C:\Users\tausi\.m2\repository\jakarta\jws\jakarta.jws-api\3.0.0\jakarta.jws-api-3.0.0.jar;C:\Users\tausi\.m2\repository\org\apache\velocity\velocity-engine-core\2.3\velocity-engine-core-2.3.jar;C:\Users\tausi\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\tausi\.m2\repository\wsdl4j\wsdl4j\1.6.3\wsdl4j-1.6.3.jar;C:\Users\tausi\.m2\repository\org\glassfish\jaxb\jaxb-xjc\3.0.2\jaxb-xjc-3.0.2.jar;C:\Users\tausi\.m2\repository\org\glassfish\jaxb\xsom\3.0.2\xsom-3.0.2.jar;C:\Users\tausi\.m2\repository\com\sun\xml\bind\external\relaxng-datatype\3.0.2\relaxng-datatype-3.0.2.jar;C:\Users\tausi\.m2\repository\org\glassfish\jaxb\codemodel\3.0.2\codemodel-3.0.2.jar;C:\Users\tausi\.m2\repository\com\sun\xml\bind\external\rngom\3.0.2\rngom-3.0.2.jar;C:\Users\tausi\.m2\repository\com\sun\xml\dtd-parser\dtd-parser\1.4.5\dtd-parser-1.4.5.jar;C:\Users\tausi\.m2\repository\com\sun\istack\istack-commons-tools\4.0.1\istack-commons-tools-4.0.1.jar;C:\Users\tausi\.m2\repository\org\apache\cxf\cxf-tools-wsdlto-core\4.0.4\cxf-tools-wsdlto-core-4.0.4.jar;C:\Users\tausi\.m2\repository\org\apache\cxf\cxf-tools-validator\4.0.4\cxf-tools-validator-4.0.4.jar;C:\Users\tausi\.m2\repository\org\apache\cxf\cxf-rt-bindings-soap\4.0.4\cxf-rt-bindings-soap-4.0.4.jar;C:\Users\tausi\.m2\repository\jakarta\xml\soap\jakarta.xml.soap-api\2.0.1\jakarta.xml.soap-api-2.0.1.jar;C:\Users\tausi\.m2\repository\jakarta\xml\ws\jakarta.xml.ws-api\3.0.1\jakarta.xml.ws-api-3.0.1.jar;C:\Users\tausi\.m2\repository\org\apache\cxf\cxf-rt-databinding-jaxb\4.0.4\cxf-rt-databinding-jaxb-4.0.4.jar;C:\Users\tausi\.m2\repository\org\apache\cxf\cxf-rt-wsdl\4.0.4\cxf-rt-wsdl-4.0.4.jar;C:\Users\tausi\.m2\repository\org\ow2\asm\asm\9.6\asm-9.6.jar;C:\Users\tausi\.m2\repository\org\apache\cxf\cxf-tools-wsdlto-databinding-jaxb\4.0.4\cxf-tools-wsdlto-databinding-jaxb-4.0.4.jar;C:\Users\tausi\.m2\repository\org\apache\cxf\cxf-tools-wsdlto-frontend-jaxws\4.0.4\cxf-tools-wsdlto-frontend-jaxws-4.0.4.jar;C:\Users\tausi\.m2\repository\xml-resolver\xml-resolver\1.2\xml-resolver-1.2.jar;C:\Users\tausi\.m2\repository\org\apache\commons\commons-text\1.10.0\commons-text-1.10.0.jar;C:\Users\tausi\.m2\repository\org\apache\cxf\cxf-tools-wsdlto-frontend-javascript\4.0.4\cxf-tools-wsdlto-frontend-javascript-4.0.4.jar;C:\Users\tausi\.m2\repository\org\apache\cxf\cxf-rt-javascript\4.0.4\cxf-rt-javascript-4.0.4.jar;C:\Users\tausi\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\tausi\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\tausi\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\tausi"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-10-17"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\tausi\OneDrive - DP World\Desktop\Taqdis\DP_World\Playwrite\PlaywritePOMFramework"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\tausi\AppData\Local\Temp\surefire4716744476531985076\surefirebooter3997361416501560334.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.21+9-LTS-193"/>
+    <property name="user.name" value="tausi"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\tausi\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\tausi\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.21"/>
+    <property name="user.dir" value="C:\Users\tausi\OneDrive - DP World\Desktop\Taqdis\DP_World\Playwrite\PlaywritePOMFramework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Microsoft SDKs\Azure\CLI2\wbin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\tausi\AppData\Local\Programs\Python\Python37\;C:\Users\tausi\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\tausi\AppData\Local\Programs\Python\Python37\Lib\site-packages\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Users\tausi\Desktop\Taqdis\DP_World\gradle-7.4.2\bin;C:\Program Files\Java\jdk-11\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Android;C:\Windows\System32;C:\Program Files\dotnet\;C:\Users\tausi\OneDrive - DP World\Desktop\Taqdis\DP_World\allure-2.8.0\bin;C:\Users\tausi\AppData\Local\Microsoft\WindowsApps;C:\Users\tausi\AppData\Local\Programs\Fiddler;C:\Users\tausi\AppData\Local\Programs\Python\Python37\;C:\Users\tausi\AppData\Local\Programs\Python\Python37\Scripts\;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.3\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.3\plugins\maven\lib\maven3\bin;C:\Users\tausi\AppData\Local\GitHubDesktop\bin;C:\Users\tausi\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Sophos\Sophos SSL VPN Client\bin;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.21+9-LTS-193"/>
+    <property name="java.specification.maintenance.version" value="2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="LoginWithValidCreds" classname="com.qa.CargoesCommuity.Tests.LoginTest" time="7.531">
+    <failure message="Error {&#10;  message=&apos;Target closed&#10;=========================== logs ===========================&#10;waiting for selector &quot;//input[@id=&apos;username&apos;]&quot;&#10;============================================================&#10;  name=&apos;Error&#10;  stack=&apos;Error: Target closed&#10;=========================== logs ===========================&#10;waiting for selector &quot;//input[@id=&apos;username&apos;]&quot;&#10;============================================================&#10;    at C:\Users\tausi\AppData\Local\Temp\playwright-java-16740682782411602580\package\lib\server\chromium\crConnection.js:204:16&#10;    at new Promise (&lt;anonymous&gt;)&#10;    at CRSession.send (C:\Users\tausi\AppData\Local\Temp\playwright-java-16740682782411602580\package\lib\server\chromium\crConnection.js:200:12)&#10;    at CRExecutionContext.evaluateWithArguments (C:\Users\tausi\AppData\Local\Temp\playwright-java-16740682782411602580\package\lib\server\chromium\crExecutionContext.js:89:28)&#10;    at FrameExecutionContext.evaluateWithArguments (C:\Users\tausi\AppData\Local\Temp\playwright-java-16740682782411602580\package\lib\server\javascript.js:73:61)&#10;    at evaluateExpression (C:\Users\tausi\AppData\Local\Temp\playwright-java-16740682782411602580\package\lib\server\javascript.js:264:26)&#10;    at async InjectedScriptPollHandler.finishHandle (C:\Users\tausi\AppData\Local\Temp\playwright-java-16740682782411602580\package\lib\server\dom.js:985:22)&#10;    at async RerunnableTask.rerun (C:\Users\tausi\AppData\Local\Temp\playwright-java-16740682782411602580\package\lib\server\frames.js:1754:73)&#10;}" type="com.microsoft.playwright.PlaywrightException"><![CDATA[com.microsoft.playwright.PlaywrightException: 
+Error {
+  message='Target closed
+=========================== logs ===========================
+waiting for selector "//input[@id='username']"
+============================================================
+  name='Error
+  stack='Error: Target closed
+=========================== logs ===========================
+waiting for selector "//input[@id='username']"
+============================================================
+    at C:\Users\tausi\AppData\Local\Temp\playwright-java-16740682782411602580\package\lib\server\chromium\crConnection.js:204:16
+    at new Promise (<anonymous>)
+    at CRSession.send (C:\Users\tausi\AppData\Local\Temp\playwright-java-16740682782411602580\package\lib\server\chromium\crConnection.js:200:12)
+    at CRExecutionContext.evaluateWithArguments (C:\Users\tausi\AppData\Local\Temp\playwright-java-16740682782411602580\package\lib\server\chromium\crExecutionContext.js:89:28)
+    at FrameExecutionContext.evaluateWithArguments (C:\Users\tausi\AppData\Local\Temp\playwright-java-16740682782411602580\package\lib\server\javascript.js:73:61)
+    at evaluateExpression (C:\Users\tausi\AppData\Local\Temp\playwright-java-16740682782411602580\package\lib\server\javascript.js:264:26)
+    at async InjectedScriptPollHandler.finishHandle (C:\Users\tausi\AppData\Local\Temp\playwright-java-16740682782411602580\package\lib\server\dom.js:985:22)
+    at async RerunnableTask.rerun (C:\Users\tausi\AppData\Local\Temp\playwright-java-16740682782411602580\package\lib\server\frames.js:1754:73)
+}
+	at com.qa.CargoesCommuity.Tests.LoginTest.LoginWithValidCreds(LoginTest.java:20)
+Caused by: com.microsoft.playwright.impl.DriverException: 
+Error {
+  message='Target closed
+=========================== logs ===========================
+waiting for selector "//input[@id='username']"
+============================================================
+  name='Error
+  stack='Error: Target closed
+=========================== logs ===========================
+waiting for selector "//input[@id='username']"
+============================================================
+    at C:\Users\tausi\AppData\Local\Temp\playwright-java-16740682782411602580\package\lib\server\chromium\crConnection.js:204:16
+    at new Promise (<anonymous>)
+    at CRSession.send (C:\Users\tausi\AppData\Local\Temp\playwright-java-16740682782411602580\package\lib\server\chromium\crConnection.js:200:12)
+    at CRExecutionContext.evaluateWithArguments (C:\Users\tausi\AppData\Local\Temp\playwright-java-16740682782411602580\package\lib\server\chromium\crExecutionContext.js:89:28)
+    at FrameExecutionContext.evaluateWithArguments (C:\Users\tausi\AppData\Local\Temp\playwright-java-16740682782411602580\package\lib\server\javascript.js:73:61)
+    at evaluateExpression (C:\Users\tausi\AppData\Local\Temp\playwright-java-16740682782411602580\package\lib\server\javascript.js:264:26)
+    at async InjectedScriptPollHandler.finishHandle (C:\Users\tausi\AppData\Local\Temp\playwright-java-16740682782411602580\package\lib\server\dom.js:985:22)
+    at async RerunnableTask.rerun (C:\Users\tausi\AppData\Local\Temp\playwright-java-16740682782411602580\package\lib\server\frames.js:1754:73)
+}
+	at com.qa.CargoesCommuity.Tests.LoginTest.LoginWithValidCreds(LoginTest.java:20)
+]]></failure>
+    <system-out><![CDATA[The browser name is chromium
+]]></system-out>
+  </testcase>
+</testsuite>
